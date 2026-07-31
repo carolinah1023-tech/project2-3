@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Your Order | Sweet Caro's Bakery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Sweet Caro's Bakery</h1>
+    <p>Fresh Homemade Treats Every Day</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="order.html">Order</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+<section class="welcome">
+
+    <h2>Place Your Bakery Order</h2>
+
+    <p>
+        We'd love to bake something special for you! Fill out the form below,
+        and we'll contact you to confirm your order.
+    </p>
+
+    <form>
+
+        <p>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="item">Select a Bakery Item:</label><br>
+            <select id="item" name="item">
+                <option>Croissant</option>
+                <option>Cheesecake</option>
+                <option>Banana Bread</option>
+                <option>Cinnamon Roll</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="pickup">Pickup Date:</label><br>
+            <input type="date" id="pickup" name="pickup">
+        </p>
+
+        <p>
+            <label for="message">Special Instructions:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Enter any special requests here."></textarea>
+        </p>
+
+        <input type="submit" value="Submit Order">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Sweet Caro's Bakery</p>
+</footer>
+
+</body>
+</html>
